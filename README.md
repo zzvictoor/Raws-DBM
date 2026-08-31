@@ -13,7 +13,7 @@ Os ficheiros na raiz correspondem a raws/ações guardadas de diferentes funcion
 ## Antes de reutilizar
 
 - Revê o conteúdo de cada raw antes de o importar.
-- Não assumes que APIs, eventos ou nomes de ações continuam compatíveis com versões atuais.
+- Não assumas que APIs, eventos ou nomes de ações continuam compatíveis com versões atuais.
 - Testa qualquer adaptação num bot ou servidor de desenvolvimento antes de a usar noutro contexto.
 
 ## Estado do projeto
