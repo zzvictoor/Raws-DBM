@@ -10,11 +10,20 @@ O conteúdo é antigo e pode já não funcionar em versões atuais do DBM, Disco
 
 Os ficheiros na raiz correspondem a raws/ações guardadas de diferentes funcionalidades, incluindo exemplos como `Ping`, `ausente`, `eventosair`, `membros`, `roll`, `say` e `serverinfo`.
 
+### Formato dos ficheiros
+
+Os raws foram guardados sem extensão de ficheiro. Abre-os como texto para inspecionar o conteúdo antes de tentar importar ou adaptar qualquer ação no DBM.
+
 ## Antes de reutilizar
 
 - Revê o conteúdo de cada raw antes de o importar.
 - Não assumas que APIs, eventos ou nomes de ações continuam compatíveis com versões atuais.
 - Testa qualquer adaptação num bot ou servidor de desenvolvimento antes de a usar noutro contexto.
+- Mantém uma cópia da configuração atual do teu bot antes de experimentar raws antigas.
+
+## Consulta rápida
+
+Para perceber o que existe no arquivo sem alterar nada, começa pelos nomes dos ficheiros na raiz e abre apenas o raw correspondente à funcionalidade que procuras. Este repositório não inclui um processo de instalação ou build próprio.
 
 ## Estado do projeto
 
